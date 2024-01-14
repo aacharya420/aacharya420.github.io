@@ -1,0 +1,87 @@
+*{
+    text-decoration: none;
+    
+}
+
+.banner{
+    background:url('/images/background_Temporary.jpg');
+    /* background-color: red; */
+    height: 100vh;
+    /* width: 100%;  */
+   background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+
+
+}
+
+
+
+ /* contact section */
+
+ .contact-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+
+  }
+
+  .contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  /* socials section */
+  .contact-info {
+    margin-top: 30px;
+  }
+
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+   
+  }
+
+  .social-icons a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+  }
+  svg{
+    width:40px;
+     height:40px;
+     fill:blue;
+  }
